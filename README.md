@@ -1,436 +1,190 @@
-# 📊 Stock Market Analysis and Visualization: Unveiling Sensex Trends
+\# 📊 Stock Market Analysis \& Visualization: Unveiling Sensex Trends
 
-# 
 
-# This project analyzes NSE Sensex stock data and provides insightful interactive visualizations using Pandas, Plotly, and Dash.
 
-# It focuses on trends in stock prices, volumes, turnovers, and seasonal behavior across multiple years, helping investors and analysts uncover meaningful patterns in the Indian stock market.
+This project analyzes NSE Sensex stock data and provides insightful interactive visualizations using \*\*Pandas\*\*, \*\*Plotly\*\*, and \*\*Dash\*\*.  
 
-# 
+It focuses on trends in stock prices, volumes, turnovers, and seasonal behavior across multiple years — helping investors and analysts uncover meaningful patterns in the Indian stock market.
 
-# 🚀 Features
 
-# 
 
-# ✅ Data Cleaning \& Preprocessing – Handling missing values, formatting dates, and preparing stock datasets.
+---
 
-# 
 
-# ✅ Exploratory Data Analysis (EDA) – Statistical summary and descriptive insights from 40K+ stock records.
 
-# 
+\## 🚀 Features
 
-# ✅ Interactive Visualizations with Plotly \& Dash:
 
-# 
 
-# 📈 Stock Price Trends over time (for all stocks \& top 5 stocks).
+\- ✅ \*\*Data Cleaning \& Preprocessing\*\* – Handling missing values, formatting dates, preparing datasets.  
 
-# 
+\- ✅ \*\*Exploratory Data Analysis (EDA)\*\* – Statistical summary and descriptive insights from 40K+ records.  
 
-# 📦 Daily Price Range distribution (Boxplots).
+\- ✅ \*\*Interactive Visualizations with Plotly \& Dash\*\*:  
 
-# 
+&nbsp; - 📈 Stock Price Trends over time (for all stocks \& top 5)  
 
-# 🔥 Heatmaps of trading volumes across dates and stocks.
+&nbsp; - 📦 Daily Price Range distribution (Boxplots)  
 
-# 
+&nbsp; - 🔥 Heatmaps of trading volumes  
 
-# 📊 Percentage Price Change scatter plots.
+&nbsp; - 📊 Percentage Price Change scatter plots  
 
-# 
+&nbsp; - 📉 Consistent Growth / Decline trends (CAGR visualization)  
 
-# 📉 Consistent Growth/Decline trends (CAGR visualization).
+&nbsp; - 📑 Deliverable vs Non-Deliverable Volumes  
 
-# 
+&nbsp; - 💰 Average Turnover by Stock  
 
-# 📑 Deliverable vs Non-Deliverable Volumes.
+&nbsp; - 📆 Seasonality in stock prices \& volumes  
 
-# 
+&nbsp; - 📦 Distribution of Trading Volumes  
 
-# 💰 Average Turnover by Stock.
+\- ✅ \*\*Dash Web App\*\* – Explore all charts interactively in one place.
 
-# 
 
-# 📆 Seasonality in stock prices \& volumes (monthly/yearly).
 
-# 
+---
 
-# 📦 Distribution of Trading Volumes across stocks.
 
-# 
 
-# ✅ Dash Web App – User-friendly interface to explore multiple interactive charts in one place.
+\## 🛠️ Tech Stack
 
-# 
 
-# 🛠️ Tech Stack
 
-# 
+\- \*\*Language\*\*: Python 🐍  
 
-# Programming Language: Python 🐍
+\- \*\*Libraries\*\*: `pandas`, `numpy`, `matplotlib`, `plotly.express`, `plotly.graph\_objects`, `dash`  
 
-# 
+\- \*\*Dataset\*\*: NSE Sensex stock data (`nse\_sensex.csv`)
 
-# Libraries: pandas, numpy → Data processing
 
-# 
 
-# matplotlib, plotly.express, plotly.graph\_objects → Visualization
+---
 
-# 
 
-# dash → Interactive dashboard
 
-# 
+\## 📂 Project Structure
 
-# Dataset: NSE Sensex stock data (nse\_sensex.csv)
 
-# 
 
-# 📂 Project Structure
+├── nse\_sensex.csv # Dataset (40K+ rows)
 
-# ├── nse\_sensex.csv            # Dataset (40K+ rows of Sensex stock data)
+├── app.py # Main Dash application
 
-# ├── app.py                    # Main Dash application
+├── requirements.txt # Python dependencies
 
-# ├── requirements.txt          # Python dependencies
+└── README.md # Project documentation
 
-# └── README.md                 # Project documentation
 
-# 
 
-# ⚙️ Installation
 
-# 
 
-# Clone the repository:
+---
 
-# 
 
-# git clone https://github.com/yourusername/stock-market-analysis.git
 
-# cd stock-market-analysis
+\## ⚙️ Installation
 
-# 
 
-# 
 
-# Install required dependencies:
+Clone the repository:
 
-# 
+```bash
 
-# pip install -r requirements.txt
+git clone https://github.com/SohiniSangoju/sensex\_analysis.git
 
-# 
+cd sensex\_analysis
 
-# 
 
-# Run the Dash app:
 
-# 
 
-# python app.py
 
-# 
+install dependencies:
 
-# 
 
-# Open your browser and visit:
 
-# 
+pip install -r requirements.txt
 
-# http://127.0.0.1:8050/
 
-# 
 
-# 📊 Sample Visualizations
 
-# 
 
-# Stock Price Trends Over Time
+Run the Dash app:
 
-# 
 
-# Trading Volume Heatmap
 
-# 
+python app.py
 
-# Deliverable vs Non-Deliverable Volume
 
-# 
 
-# Seasonality in Monthly Prices \& Volumes
 
-# 
 
-# All visualizations are interactive and can be zoomed, filtered, and explored.
+Open your browser and visit:
 
-# 
+👉 http://127.0.0.1:8050/
 
-# 📌 Use Cases
 
-# 
 
-# 🔍 Investors – Understand stock performance over time.
+📊 Sample Visualizations
 
-# 
 
-# 📈 Analysts – Identify seasonal \& market-wide patterns.
 
-# 
+📈 Stock Price Trends Over Time
 
-# 🧑‍💻 Learners – Practice data visualization, EDA, and Dash app development.
 
-# 
 
-# 👩‍💻 Author
+🔥 Trading Volume Heatmap
 
-# 
 
-# S.V.S. Sohini
 
-# 
+📑 Deliverable vs Non-Deliverable Volume
 
-# 📧 Email: your.email@example.com
 
-# 
 
-# 🌐 LinkedIn: Your LinkedIn Profile
+📆 Seasonality in Monthly Prices \& Volumes
 
-# 
 
-# 🐙 GitHub: Your GitHub Profile
 
-# 
+All visualizations are interactive: zoom, filter, hover, etc.
 
-# ⭐ Future Enhancements
 
-# 
 
-# Add real-time stock data using APIs.
+📌 Use Cases
 
-# 
 
-# Include technical indicators (e.g., RSI, MACD).
 
-# 
+🔍 Investors – Track stock performance over time
 
-# Deploy on Heroku/Render for public access.
 
-# 
 
-# Add user input filters (select specific stocks, timeframes).📊 Stock Market Analysis and Visualization: Unveiling Sensex Trends
+📈 Analysts – Spot seasonal \& market-wide patterns
 
-# 
 
-# This project analyzes NSE Sensex stock data and provides insightful interactive visualizations using Pandas, Plotly, and Dash.
 
-# It focuses on trends in stock prices, volumes, turnovers, and seasonal behavior across multiple years, helping investors and analysts uncover meaningful patterns in the Indian stock market.
+🧑‍💻 Learners – Practice EDA, visualization, Dash app development
 
-# 
 
-# 🚀 Features
 
-# 
+👩‍💻 Author - Sohini Sangoju
 
-# ✅ Data Cleaning \& Preprocessing – Handling missing values, formatting dates, and preparing stock datasets.
 
-# 
 
-# ✅ Exploratory Data Analysis (EDA) – Statistical summary and descriptive insights from 40K+ stock records.
+⭐ Future Enhancements
 
-# 
 
-# ✅ Interactive Visualizations with Plotly \& Dash:
 
-# 
+Add real-time stock data via APIs
 
-# 📈 Stock Price Trends over time (for all stocks \& top 5 stocks).
 
-# 
 
-# 📦 Daily Price Range distribution (Boxplots).
+Include technical indicators (RSI, MACD, etc.)
 
-# 
 
-# 🔥 Heatmaps of trading volumes across dates and stocks.
 
-# 
+Deploy app publicly (Heroku, Render, etc.)
 
-# 📊 Percentage Price Change scatter plots.
 
-# 
 
-# 📉 Consistent Growth/Decline trends (CAGR visualization).
-
-# 
-
-# 📑 Deliverable vs Non-Deliverable Volumes.
-
-# 
-
-# 💰 Average Turnover by Stock.
-
-# 
-
-# 📆 Seasonality in stock prices \& volumes (monthly/yearly).
-
-# 
-
-# 📦 Distribution of Trading Volumes across stocks.
-
-# 
-
-# ✅ Dash Web App – User-friendly interface to explore multiple interactive charts in one place.
-
-# 
-
-# 🛠️ Tech Stack
-
-# 
-
-# Programming Language: Python 🐍
-
-# 
-
-# Libraries:
-
-# 
-
-# pandas, numpy → Data processing
-
-# 
-
-# matplotlib, plotly.express, plotly.graph\_objects → Visualization
-
-# 
-
-# dash → Interactive dashboard
-
-# 
-
-# Dataset: NSE Sensex stock data (nse\_sensex.csv)
-
-# 
-
-# 📂 Project Structure
-
-# ├── nse\_sensex.csv            # Dataset (40K+ rows of Sensex stock data)
-
-# ├── app.py                    # Main Dash application
-
-# ├── requirements.txt          # Python dependencies
-
-# └── README.md                 # Project documentation
-
-# 
-
-# ⚙️ Installation
-
-# 
-
-# Clone the repository:
-
-# 
-
-# git clone https://github.com/SohiniSangoju/sensex\_analysis.git
-
-
-
-# cd stock-market-analysis
-
-# 
-
-# 
-
-# Install required dependencies:
-
-# 
-
-# pip install -r requirements.txt
-
-# 
-
-# 
-
-# Run the Dash app:
-
-# 
-
-# python app.py
-
-# 
-
-# 
-
-# Open your browser and visit:
-
-# 
-
-# http://127.0.0.1:8050/
-
-# 
-
-# 📊 Sample Visualizations
-
-# 
-
-# Stock Price Trends Over Time
-
-# 
-
-# Trading Volume Heatmap
-
-# 
-
-# Deliverable vs Non-Deliverable Volume
-
-# 
-
-# Seasonality in Monthly Prices \& Volumes
-
-# 
-
-# All visualizations are interactive and can be zoomed, filtered, and explored.
-
-# 
-
-# 📌 Use Cases
-
-# 
-
-# 🔍 Investors – Understand stock performance over time.
-
-# 
-
-# 📈 Analysts – Identify seasonal \& market-wide patterns.
-
-# 
-
-# 🧑‍💻 Learners – Practice data visualization, EDA, and Dash app development.
-
-# 
-
-# 👩‍💻 Author: Sohini Sangoju
-
-# 
-
-# ⭐ Future Enhancements
-
-# 
-
-# Add real-time stock data using APIs.
-
-# 
-
-# Include technical indicators (e.g., RSI, MACD).
-
-# 
-
-# Deploy on Heroku/Render for public access.
-
-# 
-
-# Add user input filters (select specific stocks, timeframes).
+Add user filters (select stocks, timeframe, etc.)
 
