@@ -1,4 +1,4 @@
-\# 📊 Stock Market Analysis \& Visualization: Unveiling Sensex Trends
+📊 Stock Market Analysis \& Visualization: Unveiling Sensex Trends
 
 
 
@@ -96,27 +96,27 @@ git clone https://github.com/SohiniSangoju/sensex\_analysis.git
 
 cd sensex\_analysis
 
-
+```
 
 
 
 install dependencies:
 
-
+```bash
 
 pip install -r requirements.txt
 
-
+```
 
 
 
 Run the Dash app:
 
-
+```bash
 
 python app.py
 
-
+```
 
 
 
