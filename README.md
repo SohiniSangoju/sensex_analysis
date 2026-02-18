@@ -87,10 +87,14 @@ _All visualizations are interactive: zoom, filter, hover, etc._
 - **Sohini Sangoju**  
 
 ---
+## 🔗 Colab Link
+[Open in Colab](https://colab.research.google.com/drive/1GYVNEDEZHPPdgjbI2KYPFKnQQJsiuyVW)
 
 ## ⭐ Future Enhancements
 
 - 📡 Add real-time stock data via APIs  
 - 📊 Include technical indicators (RSI, MACD, etc.)  
 - ☁️ Deploy app publicly (Heroku, Render, etc.)  
-- 🔎 Add user filters (select stocks, timeframe, etc.)  
+- 🔎 Add user filters (select stocks, timeframe, etc.)
+
+  
